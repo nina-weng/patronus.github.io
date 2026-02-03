@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text-primary);
   line-height: 1.6;
@@ -36,6 +36,16 @@ body {
   background-color: var(--background-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} */
+
+body {
+  font-family: 'Lora', Georgia, serif;
+  /* color: var(--text-primary);
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: var(--background-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 
@@ -109,13 +119,13 @@ body {
 }
 
 .teaser {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lora',Georgia;
 }
 
 
 /* Publication Content Styling */
 .publication-title {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Lora', Georgia !important;
     font-weight: 800 !important;
     color: var(--text-primary) !important;
     margin-bottom: 2rem !important;
@@ -146,8 +156,8 @@ body {
 }
 
 .publication-authors {
-    font-family: 'Inter', sans-serif !important;
-    font-weight: 500;
+    font-family:'Lora', Georgia ;
+    /* font-weight: 500; */
     margin-bottom: 1.5rem;
 }
 
@@ -174,9 +184,9 @@ body {
 }
 
 .publication-authors a {
-   color: var(--primary-color) !important;
+   color: var(--primary-color);
    text-decoration: none;
-   font-weight: 600;
+   /* font-weight: 600; */
    transition: var(--transition);
    position: relative;
 }
@@ -197,7 +207,7 @@ body {
 }
 
 .publication-authors a:hover {
-    color: var(--primary-hover) !important;
+    color: var(--primary-hover) ;
 }
 
 .author-block {
@@ -310,7 +320,7 @@ body {
 
 /* Section Titles */
 .title.is-3 {
-  font-family: 'Inter', sans-serif !important;
+  font-family:'Lora', Georgia !important;
   font-weight: 700 !important;
   color: var(--text-primary);
   margin-bottom: 2rem !important;
@@ -326,15 +336,15 @@ body {
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: var(--gradient-accent);
-  border-radius: 2px;
+  /* background: var(--gradient-accent);
+  border-radius: 2px; */
 }
 
 /* Content Improvements */
 .content.has-text-justified {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: var(--text-secondary);
+  font-size: 1.2rem;
+  line-height: 1.1;
+  /* color: var(--text-secondary); */
 }
 
 .content.has-text-justified p {
@@ -751,3 +761,6 @@ a:focus {
 
 
 
+.fancy-title {
+  font-family: 'Quintessential', cursive;
+}
